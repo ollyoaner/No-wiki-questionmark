@@ -4006,3 +4006,9 @@ Entries:
       message: Added option in settings to disable aphrodisiac visual effects.
   id: 430
   time: '2026-05-18T06:29:59.0000000+00:00'
+- author: SeaborneProto
+  changes:
+    - type: Add
+      message: 'Added pregnancy markings! '
+  id: 431
+  time: '2026-05-18T06:32:44.0000000+00:00'

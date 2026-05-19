@@ -2,9 +2,8 @@ using Content.Server.Actions;
 using Content.Server.Humanoid;
 using Content.Server.Inventory;
 using Content.Server.Mobs.Components;
-using Content.Server.Mind.Commands;
 using Content.Server.Polymorph.Components;
-using Content.Shared.Actions;
+using Content.Shared.Actions; // HardLight
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Coordinates;
@@ -225,7 +224,7 @@ public sealed partial class PolymorphSystem : EntitySystem
                 ("child", Identity.Entity(child, EntityManager))),
                 child);
 
-        MakeSentientCommand.MakeSentient(child, EntityManager);
+        _mindSystem.MakeSentient(child);
 
         var polymorphedComp = _compFact.GetComponent<PolymorphedEntityComponent>();
         polymorphedComp.Parent = uid;

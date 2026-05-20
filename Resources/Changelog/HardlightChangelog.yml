@@ -4140,3 +4140,9 @@ Entries:
         basic nullspace detection and deterrence gear
   id: 446
   time: '2026-05-20T08:37:06.0000000+00:00'
+- author: Illumos
+  changes:
+    - type: Fix
+      message: Pettable trait is now a 100% chance to be pet :3
+  id: 447
+  time: '2026-05-20T18:51:48.0000000+00:00'

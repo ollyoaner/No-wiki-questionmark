@@ -152,8 +152,6 @@
     walkSpeed: 2.6 # Hardlight speed change
     sprintSpeed: 4.7 # Hardlight speed change
   - type: BodyPart
-    partType: Leg
-    symmetry: Left
     onAdd:
     # - type: NoSlip Hardlight
     - type: ProtectedFromStepTriggers
@@ -168,8 +166,6 @@
     walkSpeed: 2.6 # Hardlight speed change
     sprintSpeed: 4.7 # Hardlight speed change
   - type: BodyPart
-    partType: Leg
-    symmetry: Right
     onAdd:
     # - type: NoSlip Hardlight
     - type: ProtectedFromStepTriggers

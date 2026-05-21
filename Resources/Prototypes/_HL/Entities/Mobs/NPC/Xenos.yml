@@ -170,7 +170,6 @@
   - type: Puller
     needsHands: false
   - type: Butcherable
-    butcheringType: Spike
     spawned:
     - id: FoodMeatXeno
       amount: 5
@@ -380,6 +379,12 @@
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
     baseSprintSpeed : 4
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatXeno
+      amount: 3
+    - id: Bezoar
+      amount: 2
   - type: MeleeWeapon
     damage:
      groups:
@@ -529,10 +534,11 @@
     baseWalkSpeed : 5
     baseSprintSpeed : 6
   - type: Butcherable
-    butcheringType: Spike
     spawned:
     - id: FoodMeatRouny
       amount: 3
+    - id: Bezoar
+      amount: 1
   - type: Stealth
     enabledOnDeath: false
     maxVisibility: 1.2
@@ -867,6 +873,12 @@
     - type: MovementSpeedModifier
       baseWalkSpeed : 3
       baseSprintSpeed : 4
+    - type: Butcherable
+      spawned:
+      - id: FoodMeatXeno
+        amount: 3
+      - id: Bezoar
+        amount: 1
     - type: Gun
       fireRate: 0.5
       useKey: false
@@ -915,6 +927,12 @@
         types:
           Blunt: 20
           Piercing: 6
+    - type: Butcherable
+      spawned:
+      - id: FoodMeatXeno
+        amount: 3
+      - id: Bezoar
+        amount: 1
     - type: Xeno
       actionIds:
       - ActionXenoRest
@@ -959,6 +977,12 @@
         types:
           Blunt: 12
           Piercing: 8
+    - type: Butcherable
+      spawned:
+      - id: FoodMeatXeno
+        amount: 3
+      - id: Bezoar
+        amount: 1
     - type: Xeno
       actionIds:
       - ActionXenoRest
@@ -1153,6 +1177,12 @@
       productionLength: 2
       entityProduced: MaterialRoyalResin1
       hungerCost: 0.1
+    - type: Butcherable
+      spawned:
+      - id: FoodMeatXeno
+        amount: 3
+      - id: Bezoar
+        amount: 2
     - type: Xeno
       actionIds:
       - ActionXenoRest
@@ -1355,6 +1385,12 @@
         0: Alive
         700: Critical
         800: Dead
+    - type: Butcherable
+      spawned:
+      - id: FoodMeatXeno
+        amount: 3
+      - id: Bezoar
+        amount: 1
     - type: Xeno
       actionIds:
       - ActionXenoRest

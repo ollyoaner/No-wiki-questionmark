@@ -4200,3 +4200,15 @@ Entries:
       message: 'Added damage modifier system '
   id: 454
   time: '2026-05-21T19:32:39.0000000+00:00'
+- author: Illumos
+  changes:
+    - type: Add
+      message: Three new katanas! Buy 'em at a MercVend.
+    - type: Add
+      message: Wakizashi from Delta-V.
+    - type: Add
+      message: Melee category to MercVend.
+    - type: Add
+      message: Katana sheaths to MercVend.
+  id: 455
+  time: '2026-05-21T19:52:25.0000000+00:00'

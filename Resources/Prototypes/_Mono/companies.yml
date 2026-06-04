@@ -320,3 +320,12 @@
   logins:
   - Dhizi
   - OkSam
+
+- type: company
+  id: Cybersun
+  form: Antagonist
+  name: Cybersun R&D
+  color: "#ee6f4d" #pale orange
+  logins:
+  - CaptainComedy
+

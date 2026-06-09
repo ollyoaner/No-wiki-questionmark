@@ -4556,3 +4556,15 @@ Entries:
       message: Milkable traits now use Breast Milk!
   id: 483
   time: '2026-06-09T10:55:03.0000000+00:00'
+- author: rtasva
+  changes:
+    - type: Add
+      message: >-
+        CC has maps, beacons, bluespace flashers, borg rechargers, & cameras
+        now!
+    - type: Add
+      message: Bathrooms, Sauna, Brig, Briefing room, and more to CC!
+    - type: Fix
+      message: Lights on CC now won't be all broken after the 24 hours or so
+  id: 484
+  time: '2026-06-09T10:58:44.0000000+00:00'

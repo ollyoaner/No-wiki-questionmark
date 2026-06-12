@@ -4648,3 +4648,11 @@ Entries:
         ERROR instead of a sprite inhand
   id: 494
   time: '2026-06-12T22:13:02.0000000+00:00'
+- author: re-silvered
+  changes:
+    - type: Add
+      message: >-
+        Added some differentiation to PDA ringers so you you can tell who
+        exactly next to you is receiving all those nanochats~
+  id: 495
+  time: '2026-06-12T22:13:51.0000000+00:00'

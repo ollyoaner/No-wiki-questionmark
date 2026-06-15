@@ -4758,3 +4758,9 @@ Entries:
         inserted during construction
   id: 509
   time: '2026-06-15T23:31:59.0000000+00:00'
+- author: FieryTech
+  changes:
+    - type: Tweak
+      message: New xenoborg mothership mapping, for all your assimilation needs.
+  id: 510
+  time: '2026-06-15T23:33:45.0000000+00:00'

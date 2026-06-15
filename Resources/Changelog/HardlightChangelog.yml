@@ -4750,3 +4750,11 @@ Entries:
       message: Argocyte blades are no longer the strongest weapon in the game
   id: 508
   time: '2026-06-15T23:30:26.0000000+00:00'
+- author: Typheus
+  changes:
+    - type: Tweak
+      message: >-
+        Station AI name changes to character name if positronic brain is
+        inserted during construction
+  id: 509
+  time: '2026-06-15T23:31:59.0000000+00:00'

@@ -44,18 +44,18 @@ namespace Content.Tests.Shared.Chemistry
         public void DeserializeReagentPrototypeWithSpoilConditions()
         {
             const string yaml = @"- type: reagent
-    id: TestSpoil
-    name: Test
-    desc: Testing reagent spoil conditions.
-    physicalDesc: Test reagent.
-    color: ""#ffffff""
-    spoilConditions:
-        bloodstreamPreserve: true
-        spoilTime: ""00:05:00""
-        spoilsInto: InertNanites
-        allowedBloodTypes:
-            - Blood
-            - CopperBlood
+  id: TestSpoil
+  name: Test
+  desc: Testing reagent spoil conditions.
+  physicalDesc: Test reagent.
+  color: ""#ffffff""
+  spoilConditions:
+    bloodstreamPreserve: true
+    spoilTime: ""00:05:00""
+    spoilsInto: InertNanites
+    allowedBloodTypes:
+      - Blood
+      - CopperBlood
 ";
 
             using TextReader stream = new StringReader(yaml);

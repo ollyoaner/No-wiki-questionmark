@@ -4799,3 +4799,20 @@ Entries:
       message: Slow ooc admin command
   id: 514
   time: '2026-06-15T23:36:15.0000000+00:00'
+- author: re-silvered
+  changes:
+    - type: Add
+      message: >-
+        Added a new reagent that cures addictine, but cannot exist outside
+        someone's bloodstream.
+    - type: Add
+      message: Chemicals that spoil have a new dropdown in their guidebook entry!
+    - type: Tweak
+      message: Updated the existing chemical spoilage system.
+    - type: Fix
+      message: >-
+        Fixed nanites instantly turning inert inside every bloodstream except
+        synth's. They will now appropriately maul anyone that gets it inside of
+        them
+  id: 515
+  time: '2026-06-16T00:12:26.0000000+00:00'

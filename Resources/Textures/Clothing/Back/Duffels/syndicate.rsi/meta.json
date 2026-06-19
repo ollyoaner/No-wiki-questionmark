@@ -14,6 +14,36 @@
             "name": "folded"
         },
         {
+            "name": "icon-ammo"
+        },
+        {
+            "name": "ammo-equipped-BACKPACK",
+            "directions": 4
+        },
+        {
+            "name": "ammo-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "ammo-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "icon-med"
+        },
+        {
+            "name": "med-equipped-BACKPACK",
+            "directions": 4
+        },
+        {
+            "name": "med-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "med-inhand-right",
+            "directions": 4
+        },
+        {
             "name": "equipped-BACKPACK",
             "directions": 4
         },

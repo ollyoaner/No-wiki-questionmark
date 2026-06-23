@@ -5171,3 +5171,9 @@ Entries:
       message: Missing localizations
   id: 560
   time: '2026-06-23T12:57:38.0000000+00:00'
+- author: re-silvered
+  changes:
+    - type: Tweak
+      message: You can now lay eggs whilst interaction blocked (e.g handcuffed)
+  id: 561
+  time: '2026-06-23T12:58:08.0000000+00:00'

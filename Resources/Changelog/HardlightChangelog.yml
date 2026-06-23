@@ -5195,3 +5195,9 @@ Entries:
       message: Exosuit Fabricator speciality borg printing restricted to Research
   id: 563
   time: '2026-06-23T13:01:02.0000000+00:00'
+- author: Khaomi
+  changes:
+    - type: Remove
+      message: Removed Lone Digger by Caravan Palace from Jukebox for copyright reason
+  id: 564
+  time: '2026-06-23T22:21:15.0000000+00:00'

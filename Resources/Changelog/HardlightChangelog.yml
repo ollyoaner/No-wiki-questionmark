@@ -5207,3 +5207,9 @@ Entries:
       message: Fixed church bells putting blank messages in chat
   id: 565
   time: '2026-06-24T04:36:50.0000000+00:00'
+- author: ATRAC
+  changes:
+    - type: Tweak
+      message: LRSI is now the Lumi Reind Stellar Initiative~
+  id: 566
+  time: '2026-06-24T05:02:31.0000000+00:00'

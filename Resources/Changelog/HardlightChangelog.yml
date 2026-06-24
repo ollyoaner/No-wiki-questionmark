@@ -5213,3 +5213,13 @@ Entries:
       message: LRSI is now the Lumi Reind Stellar Initiative~
   id: 566
   time: '2026-06-24T05:02:31.0000000+00:00'
+- author: re-silvered
+  changes:
+    - type: Add
+      message: >-
+        Added robotic versions of nearly every emote in game for Protogens to
+        use.
+    - type: Add
+      message: Diona, Vox and Vulpkanins now have unique sneeze sounds.
+  id: 567
+  time: '2026-06-24T05:04:18.0000000+00:00'

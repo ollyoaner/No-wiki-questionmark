@@ -5257,3 +5257,9 @@ Entries:
         regeneration
   id: 572
   time: '2026-06-27T07:54:23.0000000+00:00'
+- author: Sully669
+  changes:
+    - type: Add
+      message: Added contribution guidelines to github
+  id: 573
+  time: '2026-06-28T10:47:06.0000000+00:00'
